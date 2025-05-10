@@ -1,7 +1,6 @@
 from azure.identity import DefaultAzureCredential, InteractiveBrowserCredential
 from azure.mgmt.resource import ResourceManagementClient
 from azure.ai.ml import MLClient
-from azure.ai.ml.entities import Workspace
 from az_config import RESOURCE_GROUP, SUBSCRIPTION_ID, AML_WORKSPACE
 
 # Initialize credentials and client
